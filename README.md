@@ -151,4 +151,11 @@ git status
 ```Bash
  git log --oneline
 ```
-  
+
+# Config 08 - Baixar um projeto do GitHub Renato para o PC
+* Passo 01 - Acessar o Projeto no GitHub Renato
+* Passo 02 - Selecionar > Code
+* Passo 03 - Escolher > Download ZIP
+* Passo 04 - Selecionar o local no PC > Salvar > descompactação do projeto
+
+	
