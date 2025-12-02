@@ -36,15 +36,15 @@ Versionamento de um projeto com o Git e repositório com o GitHub
 ## Opção 02 - Criar a WorkSpace do projeto pelo Power Shell/cmd
 * Para verificar o conteudo da pasta
 ```Bash
-$ ls ou dir
+ls ou dir
 ```
 * Nome da WorkSpace para o projeto, ex: wsifpb/wsinove/wspwe1/...
 ```Bash
-$ mkdir WorkSpaceNome
+mkdir WorkSpaceNome
 ```
 * Acesar WorkSpace "wsifpb"
 ```Bash
-$ cd WorkSpaceNome
+cd WorkSpaceNome
 ```
 
 # Config 04 - Criar um repositório no GitHub Renato
@@ -53,4 +53,50 @@ $ cd WorkSpaceNome
 * Passo 03 - General > **Repository name:** nome_projeto > **Description:** Descrição do projeto
 * Passo 04 - Configuration > **Choose visibility:** [x]Public(Default) []Private > Add README []Off(Default) [x]On (usar README do projeto)
 * Passo 05 - > Create repository **a partir de 2020 a breaches padrão é "main" antesn era "master"**
+
+# Config 05 - Fazer o primeiro commit do Git(PC) >> GitHub(Renato) 
+** Usar cmd do Bash na pasta do projeto**
+* ...(master) $ Conecta o GitHub com o Git, pegar o Link no GitHub, verificar #Config 06
+```Bash
+git remote add origin https://github.com/otanerifpb/nome_projeto
+```
+** Para colar o link do GitHub Renato > Click Dir > Paste**
+* ...(master) $ Download o que está no GitHub para o Projeto local
+```Bash
+git pull origin main
+```
+* ...(main) $ Para mudar de "Master" para "Main" no projeto para ter o novo padrão do GitHub
+```Bash
+git checkout -b main
+```
+* ...(main) $ Verificar status das pastas do projeto: Verde está no Git, Vermelho está só no Projeto
+```Bash
+git status
+```
+* ...(main) $ Adiciona todos as pastas do projeto de uma só vez do Projeto para Git
+```Bash
+git add .
+```
+* ...(main) $ Adiciona pastas individuais do Projeto para Git
+```Bash
+git add ".nomePasta"
+```
+* ...(main) $ Verificar status dos arquivos: Deve está tudo Verde está no GitHub
+```Bash
+git status
+```
+* ...(main) $ De forma resumida, indicar o que foi alterado no Projeto >> o Git
+```Bash
+git commit -m "Descrever o que foi alterado"
+```
+* ...(main) $ Vai mostrar o histórico de comites até o momento, ou seja a linha do tempo
+```Bash
+git log --oneline
+```
+* ...(main) $ Upload tudo do Git para o GitHub, pode solicitar user e senha
+```Bash
+git push origin main
+```
+** Para ver o código no GitHub basta acessar a pasta e dar um F5 para atualiza.**
+	
 
