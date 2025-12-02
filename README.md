@@ -126,4 +126,29 @@ git log --oneline
 git push origin main
 ```
 
-
+# Config 07 - Demais Commit, atualizar um projeto do GitHub >> Git
+* ...(master) $ Download o que está no GitHub para o Projeto/Git
+```Bash
+git pull origin main
+```
+* ...(main) $ Para mudar de "Master" para "Main" no projeto para ter o novo padrão do GitHub
+```Bash
+git checkout -b main
+```
+* ...(main) $ Verificar status das pastas do projeto: Verde está no Git, Vermelho está só no Projeto
+```Bash
+git status
+```
+* ...(main) $ Atualiza tudo que está indicando em vermelho do Projeto/GitHub >> Git
+```Bash
+git add .
+```
+* ...(main) $ Verificar status dos arquivos: Deve está tudo Verde está no Git
+```Bash
+git status
+```
+* ...(main) $ Vai mostrar o histórico de comites até o momento, ou seja a linha do tempo
+```Bash
+ git log --oneline
+```
+  
