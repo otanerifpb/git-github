@@ -99,4 +99,31 @@ git push origin main
 ```
 ** Para ver o código no GitHub basta acessar a pasta e dar um F5 para atualiza.**
 	
+# Config 06 - Demais Commit, atualizar um projeto do Git >> GitHub
+**Usar cmd do Bash na pasta do projeto**
+* ...(main) $ Verificar status das pastas do projeto: Verde está no Git, Vermelho está só no Projeto
+```Bash
+git status
+```
+* ...(main) $ Adiciona todos as pastas do projeto de uma só vez do Projeto para Git	
+```Bash
+git add .
+```
+* ...(main) $ Verificar status dos arquivos: Deve está tudo Verde está no GitHub
+```Bash
+git status
+```
+* ...(main) $ De forma resumida, indicar o que foi alterado no projeto para o Git
+```Bash
+git commit -m "Descrever o que foi alterado"
+```
+* ...(main) $ Vai mostrar o histórico de comites até o momento, ou seja a linha do tempo	  
+```Bash
+git log --oneline
+```
+* ...(main) $ Enviar tudo do Git para o GitHub, pode solicitar user e senha
+```Bash
+git push origin main
+```
+
 
