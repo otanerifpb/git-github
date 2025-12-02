@@ -47,4 +47,10 @@ $ mkdir WorkSpaceNome
 $ cd WorkSpaceNome
 ```
 
+# Config 04 - Criar um repositório no GitHub Renato
+* Passo 01 - Abrir o GitHub Renato que foi criado no na #Config 02
+* Passo 02 - Selecionr > Repositories > New
+* Passo 03 - General > **Repository name:** nome_projeto > **Description:** Descrição do projeto
+* Passo 04 - Configuration > **Choose visibility:** [x]Public(Default) []Private > Add README []Off(Default) [x]On (usar README do projeto)
+* Passo 05 - > Create repository **a partir de 2020 a breaches padrão é "main" antesn era "master"**
 
