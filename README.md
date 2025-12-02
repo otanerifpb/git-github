@@ -16,3 +16,16 @@ Versionamento de um projeto com o Git e repositório com o GitHub
 * Passo 05 - Cllick Dir > arquivo do Git-2... na pasta anterior *04* > Execuitar como administrador
 * Passo 06 - Instalar o Git > Seguir com "Nest" em todos os passoa > Install > []View Release ... > Finish
 * Passo 07 - Testar instalação > cmd > git --help > Enter > vai aparecer todas as informações (branch, commit, ...)
+
+# Congig 02 - Criar uma conta no GitHub
+* Passo 01 - Acessar o [GitHub](https://github.com/?locale=pt-br)
+* Passo 02 - Click Sing Up > informar um e-mail > Continue
+* Passo 03 - Criar uma senha > Continue
+* Passo 04 - Criar um username > Continue
+* Passo 05 - Receber informações no e-mai > y-sim ou n-não > Continuar
+* Passo 06 - Verificar se é Humano > Verificar > Selecionar o que se pede > Create account
+* Passo 07 - Ativar a conta > informar o código enviado para o e-mail 
+* Passo 08 - Perfil de uso da conta > Quantas pessoas vai usar > Student ou Teacher > Continuar
+* Passo 09 - Pesquisa de recusrsos que gostaria de usar no GitHub > Selecionar todos > Continuar
+* Passo 10 - Escolher o plano > Free ou Get additional ... > Continue for free
+
