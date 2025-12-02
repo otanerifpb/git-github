@@ -29,3 +29,22 @@ Versionamento de um projeto com o Git e repositório com o GitHub
 * Passo 09 - Pesquisa de recusrsos que gostaria de usar no GitHub > Selecionar todos > Continuar
 * Passo 10 - Escolher o plano > Free ou Get additional ... > Continue for free
 
+# Config 03 - Criar uma WorkSpace para o Projeto no PC ou usar o cmd ou Power Shell 
+## Opção 01 - Criar a WorkSpace do projeto direto no no PC
+* Passo 01 - Selecionar a unidade de disco > criar uma WorkSpace > dar o nome "wsnomeprojeto"
+* Passo 02 - Colocar um projeto criado, ou criar um a partir desta WorkSpace
+## Opção 02 - Criar a WorkSpace do projeto pelo Power Shell/cmd
+* Para verificar o conteudo da pasta
+```Bash
+$ ls ou dir
+```
+* Nome da WorkSpace para o projeto, ex: wsifpb/wsinove/wspwe1/...
+```Bash
+$ mkdir WorkSpaceNome
+```
+* Acesar WorkSpace "wsifpb"
+```Bash
+$ cd WorkSpaceNome
+```
+
+
