@@ -211,3 +211,14 @@ git status
 * > Na mensagem de atualização > abrir o código > ver o que foi alterado
 * > Marge pull request --neste momento está sendo aceito as atualizações do GitHub Meu no GitHub Original
 
+# Config 12 - README, formatação do texto
+* Usar o # Título --------------------------------------Ao usar este caracter, texto tem destaque + uma linha abaixo (equivale h1)
+* Usar o ## Subtítulo ----------------------------------Caracter duplo, fica com uma fonte menos + uma linnha depois do texto (equivale h2)
+* Usar a 1craze + link + 1craze ------------------------Cria um caixa no link
+* Usar as 3craze bash + texto + 3craze -----------------Cria uma caixa com botão "copiar" ex. ```bash comando```
+* Usar [Nome da url](http://...) -----------------------Mostra apenas o nome que acessa o link
+* Usra o *Texto em Itálico* ou _Texto em Itálico_ ------Deixa o texto itálico
+* Usra o **Texto em Negrito** ou __Texto em Negrito__ --Deixa op texto em negrito
+* Usra o 1. Item 1 -------------------------------------Lista ordenada
+* Usar o * Item 1 --------------------------------------Lista não ordenada
+* Usar o ![Texto Alternativo](URL da Imagem) -----------Para usar uma imagem com um link
