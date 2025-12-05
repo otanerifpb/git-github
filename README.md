@@ -198,3 +198,16 @@ git status
 * .....Description: ----------pode informar porque esta realizando o Fork
 * .....[x]Copy the main ... --já esta marcado por default
 * .....> Create fork  --------neste momento é criado uma cópia de um projeto do GitHub Original para GitHub Meu	
+
+# Config 11 - Atualizar um Projeto do GitHub Renato para GitHub Original
+* **Vamos realizar um Pull Request**
+* **A atualização do Git para o GitHub Renato pode demorar um pouco para atualizar no servido**
+* **Para as atualizações ocorrerem no GitHub Original, é necessário o prorpietário aceitar a atualização**
+* > GitHub Renato > Seleciona o projeto > Contribuinte > Open pull request
+* Add a title: -----------colocar um titulo que vai identificar o tipo de atualizaçlão
+* Add a description: -----descrever o que foi realizado na atualização e explicar com mais detalhes
+* > Create pull request --neste momento será enviado as atualizações do GitHub Meu para o GitHub Original
+* > GitHub Original > selecionar o Projeto > Pull request
+* > Na mensagem de atualização > abrir o código > ver o que foi alterado
+* > Marge pull request --neste momento está sendo aceito as atualizações do GitHub Meu no GitHub Original
+
