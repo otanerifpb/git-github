@@ -158,4 +158,33 @@ git status
 * Passo 03 - Escolher > Download ZIP
 * Passo 04 - Selecionar o local no PC > Salvar > descompactação do projeto
 
+# Congig 09 - Criar um CLONE de um projeto do GitHub Renato para o PC(Git)
+* [Criar um Clone do GitHub](https://www.youtube.com/watch?v=w7JF8XSlO2M)
+* Acessar a WorkSpace "wsifpb"  
+```Bash
+ cd nomeWorkSpaceProjeto
+```
+* Acessar a pasta onde foi instalado o ambiente virtual
+```Bash
+ cd nomePastaProjeto
+```
+**Acessar o Projeto no GitHub Reanto > Selecionar > Code > Clone > HTTPS > Copiar o Link "https://github.com/..."**
+* Para colar o link >> Ctrl + Shift + v > click em enter
+**Pode ser que seja solicitado user e senha**
+```Bash
+ git clone https://github.com/...
+```
+* Para verificar se foi baixado do GitHub e testa se o clobe deu certo, listar o que tem na pasta
+```Bash
+ $ ls
+```
+* Para acessar o Projeto que foi feito o Clone e agora esta no PC
+```Bash
+ cd nomeProjeto 
+```
+* Para verificar o que tem dentro da pasta do Projeto
+```Bash
+ ls
+```
+
 	
