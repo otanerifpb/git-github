@@ -189,10 +189,10 @@ git status
 
 # Config 10 - Criar um FORK de um projeto do GitHub Original para GitHub Renato
 * Link [Como criar um FORK do GItHub](https://www.youtube.com/watch?v=jSFkCqMCuLE)
-**FORK: cópia do GitHub Original > GitHub Renato** 
-**CLONE: Cópias no GitHup Reanto > PC, se o CLONE for de uma GitHub Original(terceiro), eu não posso atualizar ou alterar**
-**PUSH: é quando envio as atualizações do meu PC para GitHub Reanto**
-**PULL REQUEST: quando envio as atualizações do GitHub Renato para o GitHub Original**
+* **FORK: cópia do GitHub Original > GitHub Renato** 
+* **CLONE: Cópias no GitHup Reanto > PC, se o CLONE for de uma GitHub Original(terceiro), eu não posso atualizar ou alterar**
+* **PUSH: é quando envio as atualizações do meu PC para GitHub Reanto**
+* **PULL REQUEST: quando envio as atualizações do GitHub Renato para o GitHub Original**
 * Acessar > GitHub Original > Seleciona o projeto > Fork 
 		* Repository name: ------adicionar outro nome se quiser ou permanecer o original
 		* Description: ----------pode informar porque esta realizando o Fork
