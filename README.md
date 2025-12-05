@@ -194,7 +194,7 @@ git status
 * **PUSH: é quando envio as atualizações do meu PC para GitHub Reanto**
 * **PULL REQUEST: quando envio as atualizações do GitHub Renato para o GitHub Original**
 * Acessar > GitHub Original > Seleciona o projeto > Fork 
-		* Repository name: ------adicionar outro nome se quiser ou permanecer o original
-		* Description: ----------pode informar porque esta realizando o Fork
-		* [x]Copy the main ... --já esta marcado por default
-		* > Create fork  --------neste momento é criado uma cópia de um projeto do GitHub Original para GitHub Meu	
+* .....Repository name: ------adicionar outro nome se quiser ou permanecer o original
+* .....Description: ----------pode informar porque esta realizando o Fork
+* .....[x]Copy the main ... --já esta marcado por default
+* .....> Create fork  --------neste momento é criado uma cópia de um projeto do GitHub Original para GitHub Meu	
