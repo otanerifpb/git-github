@@ -54,21 +54,49 @@ cd WorkSpaceNome
 * Passo 04 - Configuration > **Choose visibility:** [x]Public(Default) []Private > Add README []Off(Default) [x]On (usar README do projeto)
 * Passo 05 - > Create repository **a partir de 2020 a breaches padrão é "main" antesn era "master"**
 
-# Config 05 - Fazer o primeiro commit do Git(PC) >> GitHub(Renato) 
-** Usar cmd do Bash na pasta do projeto**
-* ...(master) $ Conecta o GitHub com o Git, pegar o Link no GitHub, verificar #Config 06
+# Config 05 - Inicialçizar o Git no Projeto
+* **Vai criar a linha do tempo do projeto, realizar/repetir este passo sempre que criar uma pasta nova no projeto**
+## Opção 01 - Click Dir na pasta do projeto > Git Bash Here __Necessário está na pasta do projeto para abrir um cmd do "Bash"__
+* Iniciar o Git
 ```Bash
-git remote add origin https://github.com/otanerifpb/nome_projeto
+$ git init
 ```
-** Para colar o link do GitHub Renato > Click Dir > Paste**
-* ...(master) $ Download o que está no GitHub para o Projeto local
-```Bash
-git pull origin main
-```
-* ...(main) $ Para mudar de "Master" para "Main" no projeto para ter o novo padrão do GitHub
+* ...(master) $ Para mudar de "Master" para "Main" no projeto para ter o novo padrão do GitHub
 ```Bash
 git checkout -b main
 ```
+* ...(master) $ Para mudar de "Master" para "Main" no projeto para ter o novo padrão do GitHub
+```Bash
+git checkout -b main
+```
+* ...(main) $ Verificar status das pastas do projeto: Verde está no Git, Vermelho está so no PC  
+```Bash
+git status
+```
+* ...(main) $ Fechar o Git]
+```Bash
+exit
+```
+## Opção 02 - Abrir a pasta do projeto > Click Dir > Mostrar mais opções > Git Bash Here __Abre um cmd__
+*Iniciar o Git
+```Bash
+git init
+```
+* ...(master) $ Para mudar de "Master" para "Main" no projeto para ter o novo padrão do GitHub 
+```Bash
+git checkout -b main
+```
+* ...(main) $ Verificar status dos arquivos: Verde está no GitHub, Vermelho está so no PC
+```Bash
+git status
+```
+* ...(main) $ Fechar o Git]
+```Bash
+exit
+```
+
+# Config 06 - Fazer o primeiro commit do Git(PC) >> GitHub(Renato) 
+** Usar cmd do Bash na pasta do projeto**
 * ...(main) $ Verificar status das pastas do projeto: Verde está no Git, Vermelho está só no Projeto
 ```Bash
 git status
@@ -89,6 +117,10 @@ git status
 ```Bash
 git commit -m "Descrever o que foi alterado"
 ```
+* ...(master) $ Conecta o GitHub com o Git, pegar o Link no GitHub, verificar #Config 06
+```Bash
+git remote add origin https://github.com/otanerifpb/nome_projeto
+```
 * ...(main) $ Vai mostrar o histórico de comites até o momento, ou seja a linha do tempo
 ```Bash
 git log --oneline
@@ -99,7 +131,7 @@ git push origin main
 ```
 ** Para ver o código no GitHub basta acessar a pasta e dar um F5 para atualiza.**
 	
-# Config 06 - Demais Commit, atualizar um projeto do Git >> GitHub
+# Config 07 - Demais Commit, atualizar um projeto do Git >> GitHub
 **Usar cmd do Bash na pasta do projeto**
 * ...(main) $ Primeiro devemos atualizar do GitHub para o Projeto/Git
 ```Bash
@@ -130,7 +162,7 @@ git log --oneline
 git push origin main
 ```
 
-# Config 07 - Demais Commit, atualizar um projeto do GitHub >> Git
+# Config 08 - Demais Commit, atualizar um projeto do GitHub >> Git
 * ...(master) $ Download o que está no GitHub para o Projeto/Git
 ```Bash
 git pull origin main
@@ -156,13 +188,13 @@ git status
  git log --oneline
 ```
 
-# Config 08 - Baixar um projeto do GitHub Renato para o PC
+# Config 09 - Baixar um projeto do GitHub Renato para o PC
 * Passo 01 - Acessar o Projeto no GitHub Renato
 * Passo 02 - Selecionar > Code
 * Passo 03 - Escolher > Download ZIP
 * Passo 04 - Selecionar o local no PC > Salvar > descompactação do projeto
 
-# Congig 09 - Criar um CLONE de um projeto do GitHub Renato para o PC(Git)
+# Congig 10 - Criar um CLONE de um projeto do GitHub Renato para o PC(Git)
 * Link [Criar um Clone do GitHub](https://www.youtube.com/watch?v=w7JF8XSlO2M)
 * Acessar a WorkSpace "wsifpb"  
 ```Bash
@@ -191,7 +223,7 @@ git status
  ls
 ```
 
-# Config 10 - Criar um FORK de um projeto do GitHub Original para GitHub Renato
+# Config 11 - Criar um FORK de um projeto do GitHub Original para GitHub Renato
 * Link [Como criar um FORK do GItHub](https://www.youtube.com/watch?v=jSFkCqMCuLE)
 * **FORK: cópia do GitHub Original > GitHub Renato** 
 * **CLONE: Cópias no GitHup Reanto > PC, se o CLONE for de uma GitHub Original(terceiro), eu não posso atualizar ou alterar**
@@ -203,7 +235,7 @@ git status
 * .....[x]Copy the main ... --já esta marcado por default
 * .....> Create fork  --------neste momento é criado uma cópia de um projeto do GitHub Original para GitHub Meu	
 
-# Config 11 - Atualizar um Projeto do GitHub Renato para GitHub Original
+# Config 12 - Atualizar um Projeto do GitHub Renato para GitHub Original
 * **Vamos realizar um Pull Request**
 * **A atualização do Git para o GitHub Renato pode demorar um pouco para atualizar no servido**
 * **Para as atualizações ocorrerem no GitHub Original, é necessário o prorpietário aceitar a atualização**
@@ -215,7 +247,7 @@ git status
 * > Na mensagem de atualização > abrir o código > ver o que foi alterado
 * > Marge pull request --neste momento está sendo aceito as atualizações do GitHub Meu no GitHub Original
 
-# Config 12 - README, formatação do texto
+# Config 13 - README, formatação do texto
 * Usar o # Título --------------------------------------Ao usar este caracter, texto tem destaque + uma linha abaixo (equivale h1)
 * Usar o ## Subtítulo ----------------------------------Caracter duplo, fica com uma fonte menos + uma linnha depois do texto (equivale h2)
 * Usar a 1craze + link + 1craze ------------------------Cria um caixa no link
