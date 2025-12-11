@@ -133,10 +133,6 @@ git push origin main
 	
 # Config 07 - Demais Commit, atualizar um projeto do Git >> GitHub
 **Usar cmd do Bash na pasta do projeto**
-* ...(main) $ Primeiro devemos atualizar do GitHub para o Projeto/Git
-```Bash
-git pull origin mains
-```
 * ...(main) $ Verificar status das pastas do projeto: Verde está no Git, Vermelho está só no Projeto
 ```Bash
 git status
