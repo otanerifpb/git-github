@@ -131,7 +131,7 @@ git push origin main
 ```
 ** Para ver o código no GitHub basta acessar a pasta e dar um F5 para atualiza.**
 	
-# Config 07 - Demais Commit, atualizar um projeto do Git >> GitHub
+# Config 07 - Demais Commit, atualizar um projeto do Git(PC) >> GitHub(Renato)
 **Usar cmd do Bash na pasta do projeto**
 * ...(main) $ Verificar status das pastas do projeto: Verde está no Git, Vermelho está só no Projeto
 ```Bash
@@ -158,7 +158,7 @@ git log --oneline
 git push origin main
 ```
 
-# Config 08 - Demais Commit, atualizar um projeto do GitHub >> Git
+# Config 08 - Demais Commit, atualizar um projeto do GitHub(Renato) >> Git(PC) 
 * ...(master) $ Download o que está no GitHub para o Projeto/Git
 ```Bash
 git pull origin main
